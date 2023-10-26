@@ -1,1 +1,56 @@
-* {}
+/*
+#948D9B grijs
+#B279A7 donkerpaars
+#D387AB lichtpaars
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    margin-left: 10vw;
+    background-color: #948D9B;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 10vw;
+    background-color: #B279A7;
+    padding: 3vh;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    border-right: black solid 2px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: #D387AB;
+    padding: 6vh 3vh;
+    border-radius: 10px;
+    text-align: center;
+    border: black solid 2px;
+}
+
+h1 {
+    background-color: #D387AB;
+    margin: 0%;
+    padding: 4vh;
+    text-align: center;
+    border-bottom: black solid 2px;
+}
+
+.vinyl {
+    width: 50vw;
+    margin: 5vw;
+}
+
+.row {
+    display: flex;
+}
