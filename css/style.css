@@ -4,6 +4,8 @@
 #D387AB lichtpaars
 */
 
+
+
 * {
     box-sizing: border-box;
 }
@@ -12,6 +14,7 @@ body {
     margin: 0%;
     margin-left: 10vw;
     background-color: #948D9B;
+    font-family: 'Boogaloo', sans-serif;
 }
 
 nav {
@@ -36,21 +39,70 @@ nav a {
     border-radius: 10px;
     text-align: center;
     border: black solid 2px;
+    font-size: 1.2rem;
 }
 
 h1 {
     background-color: #D387AB;
     margin: 0%;
-    padding: 4vh;
+    padding: 2vh 4vh;
     text-align: center;
     border-bottom: black solid 2px;
+    font-size: 5rem;
+    font-family: 'Agbalumo', sans-serif;
+}
+
+h2 {
+    margin-top: 15vh;
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
 }
 
 .vinyl {
     width: 50vw;
     margin: 5vw;
+    margin-right: 0;
 }
 
 .row {
     display: flex;
+}
+
+.curveText p {
+    margin: 0;
+}
+
+.curveText p:nth-child(2) {
+    margin-left: 15px;
+}
+
+.curveText p:nth-child(3) {
+    margin-left: 27px;
+}
+
+.curveText p:nth-child(4) {
+    margin-left: 36px;
+}
+
+.curveText p:nth-child(5) {
+    margin-left: 42px;
+}
+
+.curveText p:nth-child(6) {
+    margin-left: 45px;
+}
+
+.curveText p:nth-child(7) {
+    margin-left: 45px;
+}
+
+.curveText p:nth-child(8) {
+    margin-left: 43px;
+}
+
+.curveText p:nth-child(9) {
+    margin-left: 41px;
 }
