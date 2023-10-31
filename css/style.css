@@ -97,6 +97,10 @@ p {
     display: flex;
 }
 
+.collum {
+display: flex; justify-content: center; flex-direction: column;
+}
+
 .sectionWhy {
     display: flex;
     margin-left: 4vw;
@@ -117,6 +121,11 @@ p {
     width: 40vw;
     margin-left: 25vw;
     margin-bottom: 5vh;
+}
+.body{
+    width: 10vw;
+    margin: 4vw;
+    margin-right: 0;
 }
 
 #titleFeedback {
