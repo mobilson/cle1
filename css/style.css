@@ -20,6 +20,12 @@ body {
     background-color: #EDD2E0;
     font-family: 'Boogaloo', sans-serif;
 }
+#side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 
 nav {
     display: flex;
@@ -113,8 +119,9 @@ p {
 
 .collum {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
+    text-align: center;
 }
 
 .sectionWhy {
